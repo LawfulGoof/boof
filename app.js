@@ -108,4 +108,4 @@ if(command === 'seeet') {
   
 });
 
-client.login("NDM3NzczMDA4NDk3NjcyMTky.DcAHvQ.cb8NNAKBbx4D9idoQ6bz99MHWRQ");
+client.login(process.env.BOT_TOKEN);
