@@ -54,7 +54,7 @@ client.on("message", async message => {
   
   if(command === "help") {
     
-    const m = await message.channel.send("***Hi! I’m Bhahouighfbot. How can I help you today?***\n" +
+    const m = await message.channel.send("**Hi! I’m Bhahouighfbot. How can I help you today?**\n" +
       "```b!help: Summons the help menu (You’re looking at it!)\n" +
       "b!respond: I may respond, but no guarantees.\n" +
       "b!deny: I’m not a robot. Really.\n" +
